@@ -5,7 +5,7 @@ class Home extends Component {
     state = {
         myState: 'Hello World!'
     }
-    updateState = () => this.ListeningStateChangedEvent({myState: 'Goodbye'})
+    updateState = () => {this.ListeningStateChangedEvent({myState: 'Goodbye'})}
     render(){
         let pic = {
             url:'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
