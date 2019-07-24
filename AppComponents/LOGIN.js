@@ -78,6 +78,7 @@ const styles = StyleSheet.create({
       height: 100,
       justifyContent: 'center',
       alignSelf: 'center',
+      flexDirection:'column-reverse'
   },
 
 })
